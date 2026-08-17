@@ -1,0 +1,15 @@
+Request Queue: 98 183 37 122 14 124 65 67
+Initial Head Position: 53
+Max Cylinder Size: 199
+
+FCFS:
+Total Head Movement = 640
+
+SSTF:
+Total Head Movement = 236
+
+SCAN:
+Total Head Movement = 331
+
+C-SCAN:
+Total Head Movement = 382

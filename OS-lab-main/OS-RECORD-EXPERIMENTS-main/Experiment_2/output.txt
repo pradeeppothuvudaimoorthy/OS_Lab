@@ -1,0 +1,51 @@
+$ bash greatest.sh
+ENTER THREE NUMBERS
+12 45 23
+45 is greater
+
+$ bash factorial.sh
+ENTER THE NUMBER:
+5
+FACTORIAL OF THE GIVEN NUMBER IS 120
+
+$ bash oddsum.sh
+ENTER THE RANGE:
+10
+SUM = 25
+
+$ bash fibonacci.sh
+ENTER THE LIMIT:
+5
+0
+1
+1
+2
+3
+
+$ bash calculator.sh
+ENTER THE VALUE OF A:
+10
+ENTER THE VALUE OF B:
+5
+ENTER THE OPTION TO PERFORM
+1. ADDITION
+2. SUBTRACTION
+3. MULTIPLICATION
+4. DIVISION
+3
+Result = 50
+
+$ bash largestdigit.sh
+ENTER THE NUMBER
+38291
+THE LARGEST DIGIT OF THE NUMBER: 9
+
+$ bash palindrome.sh
+ENTER THE STRING TO CHECK PALINDROME
+radar
+radar is a palindrome
+
+$ bash reverse.sh
+ENTER THE NUMBER
+12345
+REVERSE OF THE NUMBER IS 54321

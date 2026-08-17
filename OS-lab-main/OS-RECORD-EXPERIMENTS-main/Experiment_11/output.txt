@@ -1,0 +1,25 @@
+--- First Fit Memory Allocation ---
+Enter Number of Blocks: 5
+Enter Number of Processes: 4
+Enter Block Sizes: 100 500 200 300 600
+Enter Process Sizes: 212 417 112 426
+
+Process No	Process Size	Block No
+1		212		2
+2		417		5
+3		112		2
+4		426		Not Allocated
+
+--- Best Fit Memory Allocation ---
+Process No	Process Size	Block No
+1		212		4
+2		417		2
+3		112		3
+4		426		5
+
+--- Worst Fit Memory Allocation ---
+Process No	Process Size	Block No
+1		212		5
+2		417		Not Allocated
+3		112		2
+4		426		Not Allocated

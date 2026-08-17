@@ -1,0 +1,11 @@
+Pages: 7 0 1 2 0 3 0 4 2 3 0 3 2
+Frames: 3
+
+FIFO:
+Total Page Faults = 15
+
+LRU:
+Total Page Faults = 12
+
+Optimal:
+Total Page Faults = 9

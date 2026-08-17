@@ -1,0 +1,41 @@
+Microsoft Windows [Version 10.0.19045.4780]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\>winver
+[Opens About Windows Dialog Box showing version 22H2]
+
+C:\>systeminfo
+Host Name:                 DESKTOP-STUDENT
+OS Name:                   Microsoft Windows 10 Home
+OS Version:                10.0.19045 N/A Build 19045
+System Manufacturer:       HP
+System Model:              HP Laptop 15s
+System Type:               x64-based PC
+Processor(s):              1 Processor(s) Installed.
+
+C:\>hostname
+DESKTOP-STUDENT
+
+C:\>diskpart
+Microsoft DiskPart version 10.0.19041.964
+Copyright (C) Microsoft Corporation.
+On computer: DESKTOP-STUDENT
+
+DISKPART> list disk
+  Disk ###  Status         Size     Free     Dyn  Gpt
+  --------  -------------  -------  -------  ---  ---
+  Disk 0    Online          476 GB      0 B        *
+
+DISKPART> exit
+
+C:\>slmgr /xpr
+[Pop-up Window: Windows(R), Core edition: The machine is permanently activated.]
+
+C:\>ipconfig
+Windows IP Configuration
+
+Wireless LAN adapter Wi-Fi:
+   Connection-specific DNS Suffix  . :
+   IPv4 Address. . . . . . . . . . . : 192.168.1.15
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 192.168.1.1

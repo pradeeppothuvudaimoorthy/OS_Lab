@@ -1,0 +1,23 @@
+--- Sequential File Allocation ---
+Enter Starting Block: 10
+Enter File Length (Number of Blocks): 5
+
+Allocated Blocks:
+10 11 12 13 14
+
+--- Indexed File Allocation ---
+Enter Index Block: 9
+Enter Number of Blocks: 4
+Enter Block Numbers:
+10 12 15 18
+
+Index Block : 9
+Allocated Blocks : 10 12 15 18
+
+--- Linked File Allocation ---
+Enter Number of Blocks: 4
+Enter Block Numbers:
+2 8 15 4
+
+Linked Allocation:
+2 --> 8 --> 15 --> 4 --> NULL

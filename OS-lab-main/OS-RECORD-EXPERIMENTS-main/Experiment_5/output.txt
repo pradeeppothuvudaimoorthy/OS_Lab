@@ -1,0 +1,3 @@
+$ gcc ipc_pipe.c -o ipc_pipe
+$ ./ipc_pipe
+Message received from child: Hello from Child Process

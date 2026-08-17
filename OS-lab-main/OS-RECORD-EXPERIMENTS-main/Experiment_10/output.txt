@@ -1,0 +1,13 @@
+Enter Page Size: 4
+Enter Number of Pages: 4
+Enter Frame Numbers for Each Page:
+Page 0 -> Frame: 5
+Page 1 -> Frame: 6
+Page 2 -> Frame: 1
+Page 3 -> Frame: 2
+Enter Logical Address: 10
+
+Page Number : 2
+Offset : 2
+Frame Number : 1
+Physical Address : 6

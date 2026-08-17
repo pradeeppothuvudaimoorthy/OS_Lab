@@ -1,0 +1,7 @@
+winver
+systeminfo
+hostname
+diskpart
+list disk
+slmgr /xpr
+ipconfig

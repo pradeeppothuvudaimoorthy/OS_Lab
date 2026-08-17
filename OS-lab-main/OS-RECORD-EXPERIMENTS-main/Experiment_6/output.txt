@@ -1,0 +1,8 @@
+$ gcc semaphore.c -o semaphore -pthread
+$ ./semaphore
+Parent Process Entering Critical Section
+[3 seconds delay]
+Parent Process Leaving Critical Section
+Child Process Entering Critical Section
+[3 seconds delay]
+Child Process Leaving Critical Section

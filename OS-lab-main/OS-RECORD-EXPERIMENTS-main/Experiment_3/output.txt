@@ -1,0 +1,22 @@
+$ gcc fork_process.c -o fork_process
+$ ./fork_process
+
+CHILD PROCESS
+Child PID : 1056
+Parent PID : 1055
+
+PARENT PROCESS
+Parent PID : 1055
+Parent's Parent PID : 982
+
+$ gcc wait_call.c -o wait_call
+$ ./wait_call
+Child Process Running
+[5 seconds delay]
+Child Process Completed
+Parent Resumes Execution
+
+$ gcc close_call.c -o close_call
+$ ./close_call
+File Opened Successfully
+File Closed Successfully
